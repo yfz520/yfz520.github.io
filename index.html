@@ -32,95 +32,65 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 
 /* Elements */
-
 body { background:#f3f3f3; font-family:Helvetica,"微软雅黑","黑体",Arial,Tahoma;line-height:1.5;text-shadow:0 1px 0px #fff;text-align:center;margin-top:40px;color:#666; }
-
 a:link,a:visited { color:#55a;text-decoration:none; }
 a:hover, a:active { color:#55a;text-decoration:underline; }
-
 /* Elements */
-
-
 .left {float:left}
 .right {float:right}
 .clear {clear:both}
-
-
 .mask { background:#fff;width:100%;height:100%;position:absolute;z-index:998;top:0;left:0;opacity:0.8; }
-
 .dialog { width:400px;border:1px solid #bebebe;position:absolute;z-index:999;box-shadow:0 6px 10px #ccc;border-radius:3px; }
 .dialogContainer { width:100%;border-top:1px solid #fff;background:#333;border-radius:4px;background: -moz-linear-gradient(top, #f0f0f0, #e5e5e5);background: -webkit-gradient(linear, 0 0, 0 100%, from(f0f0f0), to(e5e5e5));}
 .dialogContent { min-height:60px;padding:40px 20px 10px;font-size:20px;color:#666;text-shadow:0 1px 0 #fff;text-align:center;}
-
-
-
 .dialogOperator { padding:10px 20px 20px;text-align:center;margin:0 auto;overflow:hidden; }
 .dialogOperator .inwrap{ float:left; position:relative; left:50%;}
 .dialogOperator .wrapContent { float:left; position:relative; left:-50%; }
 .dialog a.btn { display:block;border-radius:3px;float:left;text-align:center;text-decoration:none;margin:0px 5px 1px 5px; }
 .dialog a.btn b { display:block;height:30px;border-radius:2px;font-size:16px;line-height:30px;text-shadow:none;text-align:center;padding:0 40px;}
 .dialog a.btn:active { margin:1px 5px 0 5px; }
-
 .tourTip .dialogContainer {background:#f0f0f0;background: -moz-linear-gradient(top, #fff, #f9f9f9);background: -webkit-gradient(linear, 0 0, 0 100%, from(fff), to(f9f9f9));}
 .tourTipContent {padding:50px 20px 20px;  }
 .tourTipContent .desc {padding:20px 0;  }
-
 .dialog a.btnClose { position:absolute;right:0;margin:10px;width:24px;height:24px;border-radius:20px;}
 .dialog a.btnClose:hover,.dialog a.btnClose:active { background:#ddd;}
-
 .dialog a.btnClose img { margin:5px 5px 5px 5px; }
 /* Layout */
-
 .container {}
 .clr { clear:both;height:1px;overflow:hidden; }
 .clrLeft { clear:left;height:1px;overflow:hidden; }
 .clrRight { clear:right;height:1px;overflow:hidden; }
-
-
-
 .loginPanel { margin: 10px auto; height:380px; border-radius:4px;text-align:center; }
-
 .loginPanel .title { border-radius:4px 4px 0 0;height:50px;text-shadow:0 1px 0 #fff;font-size:12px;line-height:50px; }
-
 .loginPanel .hui { border-radius:4px 4px 0 0;height:50px;text-shadow:0 1px 0 #fff;font-size:25px;line-height:50px; }  
   
 .loginPanel .panelContent { padding:20px; }
 .loginPanel .zt { font-size:15px; line-height:10px; line-height:20px;}
 .loginPanel .ztt { font-size:8px; line-height:10px; }
-.loginPanel .zw { font-size:15px; line-height:7px;}
-
-.loginPanel .en { font-size:8px; line-height:10px; }
-.loginPanel .tel { font-size:25px; line-height:10px;line-height:60px; }
-.loginPanel .ty { font-size:11px; line-height:10px; line-height:20px; }
+.loginPanel .zw { font-size:15px; line-height:30px;}
+.loginPanel .sm { font-size:17px; line-height:12px; }
+.loginPanel .zm { font-size:11px; line-height:0px; }
+.loginPanel .en { font-size:11px; line-height:10px; }
+.loginPanel .tel { font-size:25px; line-height:10px;line-height:50px; }
+.loginPanel .ty { font-size:10px; line-height:10px; line-height:20px; }
 	
 .loginPanel .qrcode { width:150px; box-shadow:0 6px 6px #999999; }
 .loginPanel .weixin { width:80px;  }
 .loginPanel .zhouhuiimg { width:200px; }
 .loginPanel .info { margin:10px 0 0; }
 .loginPanel .normlDesc { }
-.loginPanel .zhouhui { font-size:25px;}
+.loginPanel .zhouhui { font-size:25px;line-height:30px;}
 .loginPanel .huizhou { font-size:11px; line-height:10px; }
 .loginPanel .errorMsg { display:none; }
 .loginPanel a.operatorBtn { margin-top:10px; }
-.loginPanel .ls { color:#00a0e9 !important; border-radius:4px 4px 0 0;height:50px;text-shadow:0 1px 0 #fff; line-height:30px;font-size:25px; }
-
-
+.loginPanel .ls { color:#00a0e9 !important; border-radius:4px 4px 0 0;height:50px;text-shadow:0 1px 0 #fff; line-height:30px;font-size:22px; }
 .zoomIn { cursor:-webkit-zoom-in; cursor: -moz-zoom-in;  }
 .zoomOut { cursor:-webkit-zoom-out; cursor: -moz-zoom-out; }
-
-
-
-
-
 /* Color Scheme */
-
 .slidePic { position:absolute;float:left; }
 .slidePic img { position:absolute;box-shadow:0px 4px 30px #333;z-index:49; }
-
 .normalPanel { }
-
 .lightText { color:#ccc;}
-
 /*tmp style*/ 
 </style>
 </head>
@@ -140,8 +110,12 @@ a:hover, a:active { color:#55a;text-decoration:underline; }
 <p><a href="tel:18218272480"><img src="/tel.png" width="70" height="71"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="sms:18218272480"><img src="/sms.png" width="72" height="73"></a></p>
 
 	<div class="zhouhui">姓名：易凤珠</div>
+			<div class="sm">Name:zhou hui</div></p>
+
 	<div class="zw">（职位：班主任）</div>
-<br/>
+				<div class="zm">Store Manager</div></p>
+
+<div class="info">
 
 	<p><a class="ls"> 电城中心幼儿园 </a>
 	<div class="en">DIANCHENG TOWN CENTER NINDERGARTEN</div></p>
